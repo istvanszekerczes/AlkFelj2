@@ -1,6 +1,6 @@
 # AlkFelj2
 
-##Read in csv:
+Read in csv:
 private static IEnumerable<T> LoadData<T>(string path) {
     if (!File.Exists(path)) {
         Console.WriteLine($"Hiba. A megadott fájl útvinala nem létezik: {path}");
@@ -21,7 +21,7 @@ private static IEnumerable<T> LoadData<T>(string path) {
     return csv.GetRecords<T>().ToList();
 }
 
-##Join:
+Join:
 var athletes = new List<Athlete>();
 var teams = new List<Team>();
 
@@ -64,7 +64,7 @@ namespace ConsoleApp1.models
     }
 }
 
-##Converter
+Converter
 using System;
     using System.Collections.Generic;
     using System.ComponentModel;
@@ -119,8 +119,8 @@ using System;
         }
     }
 
-    ##Full Code
-    using System.Xml.Linq;
+Full Code:
+using System.Xml.Linq;
 using ConsoleApp1.models;
 using CsvHelper;
 using CsvHelper.Configuration;
