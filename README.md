@@ -1,5 +1,8 @@
 # AlkFelj2
 
+Console app -> Debug Properties CSV path -> CSVReader nuget -> CSV beolvasas -> Model osztaly -> SafeInt32Converter -> LINQ feladatok
+https://www.tutorialsteacher.com/linq  -> LINQ tutorial
+
 Read in csv:
 private static IEnumerable<T> LoadData<T>(string path) {
     if (!File.Exists(path)) {
